@@ -1,0 +1,18 @@
+# Optimized for least cache busting possible for fast development rebuilds
+FROM ruby:2.3.1
+
+RUN curl -sL https://deb.nodesource.com/setup_6.x | bash -
+RUN apt-get install -y nodejs
+RUN npm install
+
+RUN mkdir /myapp
+WORKDIR /myapp
+ADD Gemfile /myapp/Gemfile
+ADD Gemfile.lock /myapp/Gemfile.lock
+RUN bundle install
+ADD . /myapp
+
+EXPOSE 3000
+EXPOSE 8080
+
+CMD ["bundle", "exec", "foreman", "start", "-f", "Procfile.dev"]

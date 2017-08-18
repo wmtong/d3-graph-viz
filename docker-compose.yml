@@ -1,0 +1,15 @@
+version: '2'
+services:
+  d3viz:
+    build:
+      context: .
+      dockerfile: Dockerfile.dev
+    volumes:
+      - .:/myapp
+    ports:
+      - "3000:3000"
+      - "8080:8080"
+    tty: true
+    stdin_open: true
+    environment:
+      RAILS_ENV: development

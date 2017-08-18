@@ -1,0 +1,225 @@
+.App {
+  text-align: left;
+  min-width: 920px;
+}
+
+.App-header {
+  position: absolute;
+  display:block;
+  width: 100%;
+  height: 140px;
+  padding: 0px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
+  background-color: #2F4F4F;
+  color: white;
+  text-align: center;
+  vertical-align: middle;
+}
+
+.App-body {
+  display:block;
+  font-family: Arial, serif;
+  font-size: 12px;
+  text-align: center;
+  padding-top: 120px;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.button {
+  font-family: Arial, serif;
+  font-size: 14px;
+  background-color: #0d94d2;
+  border: 1px solid #6a737b;
+  border-radius: 6px;
+  color: white;
+  padding: 6px 12px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.university {
+  background-color: #0d94d2;
+}
+
+.miserables {
+  background-color: #329932;
+}
+
+.close {
+  padding: 5px 10px;
+  background-color: #cc3c3c;
+}
+
+.graph {
+  position: absolute;
+  float: left;
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: auto;
+}
+
+.panel {
+  position: relative;
+  text-align: center;
+  font-family: Arial, serif;
+  font-size: 0.9em;
+  background-color: #101010;
+  opacity: 0.6;
+  position: relative;
+  float: right;
+  max-width: 30%;
+  min-width: 15%;
+  padding: 1%;
+  margin: auto;
+  border-radius: 30px;
+  color: white;
+}
+
+.panel-title {
+  font-size: 2em;
+  color: white;
+}
+
+.panel-cell {
+  font-size: 1.0em;
+}
+
+.value {
+  word-break: break-all;
+}
+
+.panel-link {
+  color: white;
+}
+
+.panel-table {
+  table-layout:fixed;
+  display: inline-block;
+}
+
+table, th, td {
+  border: 1px solid white;
+}
+
+td {
+  padding: 4px 6px;
+}
+
+.legend {
+  font-family: Arial, serif;
+  font-size: 0.85em;
+  position: relative;
+  float: left;
+  text-align: left;
+  color: black;
+}
+
+.d3-wrapper {
+  padding: 30px;
+}
+
+svg {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.clearfix{
+    clear:both
+}
+
+/*for highlighting logic*/
+.text {
+  font-size: "0.3em";
+  font-weight: normal;
+}
+
+.text-active{
+  font-size: "0.6em";
+  font-weight: bold;
+}
+
+.node {
+  stroke: #fff;
+  stroke-width: 1.5px;
+}
+
+.node-active{
+  stroke: #555;
+  stroke-width: 2px;
+}
+
+.link {
+  stroke: #555;
+  stroke-opacity: .3;
+}
+
+.link-active {
+  stroke-opacity: 1;
+}
+
+.labels {
+  -moz-user-select: -moz-none;
+  -khtml-user-select: none;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+}
+
+.overlay {
+  fill: none;
+  pointer-events: all;
+}
+
+#textbox
+{
+    width:180px;
+    font-size:10px;
+    margin: 0px 0px 0px 0px;
+    padding: 3px 3px 3px 3px;
+    border: 1px solid #6a737b;
+    border-radius: 6px;
+}
+
+#search_button{
+  background-color: #0d94d2;
+  border: none;
+  cursor: pointer;
+  margin: 0;
+}
+
+#checkboxes-form {
+  position: absolute;
+  margin-left: auto;
+  margin-right: auto;
+  top: 95px;
+  right: 0px;
+  font-size: 14px;
+  color: white;
+  font-family: Arial, serif;
+  font-weight: bolder;
+}
+
+#submit {
+  font-family: Arial, serif;
+  font-size: 14px;
+  font-weight: bolder;
+  padding: 5px 10px;
+  background-color: #0d94d2;
+  border: 1px solid #6a737b;
+  border-radius: 6px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 0px 10px 0px 0px;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
