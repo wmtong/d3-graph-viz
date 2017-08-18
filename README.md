@@ -2,7 +2,11 @@
 
 The general purpose of this project was becoming familiar with a some web frameworks/libraries and to display some skills I learned from my summer job.
 
+#### Overview
+
 I made a very basic data visualization of a force directed graph and constructed a Rails API server that transformed datasets into usable data for the React/D3 UI.
+
+[Link to Live Demo](https://d3-graph-viz.herokuapp.com/)
 
 ![D3 Graph Gif](https://media.giphy.com/media/3ohv4zLUP59Hvweq2I/giphy.gif)
 
@@ -12,7 +16,7 @@ Force-Directed Graph implements zoom, drag, resizing, highlighting, selection op
 
 #### Datasets:
 
-I demoed this visual using 2 datasets, one is a sample miserables.json file and the other is of a public mysql database found online. I wanted to show the flexibility of this application, and how it can transform virtually any relational dataset into a detailed graph visualization.
+I wanted to show the flexibility of this application and how it can transform virtually any relational dataset into a detailed graph visualization. In this demo I used 2 datasets, one is a simple json file (miserables.json) and the other is a public mysql database with fake university data. 
 
 ### Local Setup:
 

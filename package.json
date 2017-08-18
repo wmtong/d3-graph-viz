@@ -1,5 +1,5 @@
 {
-  "name": "fd-graph-viz",
+  "name": "d3-graph-viz",
   "engines": {
     "node": "6.3.1"
   },
