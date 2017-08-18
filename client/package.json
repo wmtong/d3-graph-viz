@@ -1,5 +1,5 @@
 {
-  "name": "client",
+  "name": "d3-graph-viz-client",
   "version": "0.1.0",
   "proxy": "http://localhost:3000",
   "private": true,
