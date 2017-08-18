@@ -8,7 +8,7 @@ I made a very basic data visualization of a force directed graph and constructed
 
 [Link to Live Demo](https://d3-graph-viz.herokuapp.com/)
 
-![D3 Graph Gif](https://media.giphy.com/media/3ohv4zLUP59Hvweq2I/giphy.gif)
+![D3 Graph Gif](d3_visual.gif)
 
 #### Features:
 
@@ -16,7 +16,7 @@ Force-Directed Graph implements zoom, drag, resizing, highlighting, selection op
 
 #### Datasets:
 
-I wanted to show the flexibility of this application and how it can transform virtually any relational dataset into a detailed graph visualization. In this demo I used 2 datasets, one is a simple json file (miserables.json) and the other is a public mysql database with fake university data. 
+I wanted to show the flexibility of this application and how it can transform virtually any relational dataset into a detailed graph visualization. In this demo I used 2 datasets, one is a simple json file (miserables.json) and the other is a public mysql database with fake university data.
 
 ### Local Setup:
 
